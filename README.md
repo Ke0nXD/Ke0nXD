@@ -16,7 +16,13 @@
 
 ---
 
-## 🧠 Sobre mim
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=80&color=0:7c3aed,100:050014&text=%F0%9F%A7%A0%20Sobre%20mim&fontColor=a78bfa&fontSize=28&animation=fadeIn" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3200&pause=1200&color=8B5CF6&center=true&vCenter=true&width=700&lines=Entre+design%2C+c%C3%B3digo+e+produto%2C+eu+procuro+o+ponto+onde+uma+ideia+vira+sistema.;Apar%C3%AAncia+forte.+Fluxo+funcional.+Utilidade+comercial." alt="Typing sobre mim" />
+
+</div>
 
 Sou desenvolvedor web com foco em **aplicações full stack**, **landing pages**, **dashboards administrativos**, **sistemas para negócios reais** e uso estratégico de IA para acelerar desenvolvimento, prototipagem e automação.
 
@@ -26,9 +32,14 @@ Atualmente desenvolvo projetos sob a marca **Lunaris**, com foco em soluções w
 
 ---
 
-## 🛠️ Arsenal técnico
-
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=80&color=0:7c3aed,100:050014&text=%F0%9F%9B%A0%EF%B8%8F%20Arsenal%20t%C3%A9cnico&fontColor=a78bfa&fontSize=28&animation=fadeIn" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2600&pause=900&color=22C55E&center=true&vCenter=true&width=700&lines=Front-end+moderno.;Back-end+funcional.;Banco+de+dados+real.;Deploy+em+produ%C3%A7%C3%A3o.;Nada+de+projeto+fantasma." alt="Typing tech" />
+
+<br />
+<br />
 
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,mongodb,supabase,vercel,git,github,vscode&theme=dark" alt="Tech stack" />
 
@@ -44,7 +55,13 @@ Atualmente desenvolvo projetos sob a marca **Lunaris**, com foco em soluções w
 
 ---
 
-## 🚀 Projetos em destaque
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=80&color=0:7c3aed,100:050014&text=%F0%9F%9A%80%20Projetos%20em%20destaque&fontColor=a78bfa&fontSize=28&animation=fadeIn" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=760&lines=Projetos+com+fluxo%2C+interface%2C+painel+e+deploy.;Sistemas+feitos+para+parecerem+simples+por+fora+e+pensados+por+dentro." alt="Typing projetos" />
+
+</div>
 
 <table>
   <tr>
@@ -95,7 +112,13 @@ Atualmente desenvolvo projetos sob a marca **Lunaris**, com foco em soluções w
 
 ---
 
-## 🧭 Linha de evolução
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=80&color=0:7c3aed,100:050014&text=%F0%9F%A7%AD%20Linha%20de%20evolu%C3%A7%C3%A3o&fontColor=a78bfa&fontSize=28&animation=fadeIn" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=900&color=FBBF24&center=true&vCenter=true&width=760&lines=Base+%E2%86%92+Produto+funcional+%E2%86%92+Arquitetura+multi-filial.;Iterar+%C3%A9+onde+o+projeto+come%C3%A7a+a+ficar+perigoso+de+verdade." alt="Typing evolução" />
+
+</div>
 
 ```txt
 Restaurante-Automatizado
@@ -110,7 +133,13 @@ Restaurante-Web-Filiais
 
 ---
 
-## 💼 O que eu desenvolvo
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=80&color=0:7c3aed,100:050014&text=%F0%9F%92%BC%20O%20que%20eu%20desenvolvo&fontColor=a78bfa&fontSize=28&animation=fadeIn" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=740&lines=Landing+pages.+Dashboards.+Sistemas+web.;Sites+para+neg%C3%B3cios+reais%2C+n%C3%A3o+apenas+experimentos+bonitos." alt="Typing serviços" />
+
+</div>
 
 ```txt
 Landing pages modernas       Sites institucionais
@@ -121,9 +150,14 @@ Reparos em sites existentes  Prototipagem rápida com IA
 
 ---
 
-## 📫 Contato
-
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=80&color=0:7c3aed,100:050014&text=%F0%9F%93%AB%20Contato&fontColor=a78bfa&fontSize=28&animation=fadeIn" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3200&pause=1100&color=A78BFA&center=true&vCenter=true&width=700&lines=Tem+uma+ideia%3F+Um+projeto%3F+Um+site+abandonado%3F;Talvez+ele+s%C3%B3+precise+de+algu%C3%A9m+curioso+o+bastante+para+reconstru%C3%AD-lo." alt="Typing contato" />
+
+<br />
+<br />
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-lunaris--taupe.vercel.app-7C3AED?style=for-the-badge)](https://lunaris-taupe.vercel.app/)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-(37)%2099987--5584-22C55E?style=for-the-badge&logo=whatsapp)](https://wa.me/5537999875584)
