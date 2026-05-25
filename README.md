@@ -1,10 +1,11 @@
 <div align="center">
 
-# Olá, eu sou Keverson Loyola — Ke0nXD 🌙
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:050014,50:30115e,100:7c3aed&text=Keverson%20Loyola%20%7C%20Ke0nXD&fontColor=ffffff&fontSize=38&fontAlignY=35&animation=fadeIn&desc=Full%20Stack%20Developer%20%E2%80%A2%20Web%20Developer%20%E2%80%A2%20AI%20Automation&descAlignY=58&descSize=16" />
 
-### Full Stack Developer · Web Developer · AI Automation Enthusiast
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=800&lines=Construindo+interfaces+modernas.;Criando+sistemas+web+funcionais.;Transformando+ideias+em+produtos+digitais.;Next.js+%E2%80%A2+React+%E2%80%A2+MongoDB+%E2%80%A2+Vercel" alt="Typing SVG" />
 
-Construo interfaces modernas, sistemas web funcionais e experiências digitais com identidade forte.
+<br />
+<br />
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Lunaris-7C3AED?style=for-the-badge)](https://lunaris-taupe.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Ke0nXD-111827?style=for-the-badge&logo=github)](https://github.com/Ke0nXD)
@@ -25,81 +26,14 @@ Atualmente desenvolvo projetos sob a marca **Lunaris**, com foco em soluções w
 
 ---
 
-## 🛠️ Tecnologias e ferramentas
+## 🛠️ Arsenal técnico
 
 <div align="center">
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-16A34A?style=for-the-badge&logo=mongodb&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-111827?style=for-the-badge&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,mongodb,supabase,vercel,git,github,vscode&theme=dark" alt="Tech stack" />
 
-</div>
-
----
-
-## 🚀 Projetos em destaque
-
-### 🍽️ Ecossistema Restaurante Web
-Sistema full stack para digitalizar operações de restaurantes: cardápio digital, pedidos no local, comandas, delivery, painel administrativo, área do cliente e fluxo para entregadores.
-
-| Projeto | Descrição | Link |
-|---|---|---|
-| **Restaurante Automatizado** | Base full stack original do sistema para restaurante | [Repositório](https://github.com/Ke0nXD/Restaurante-Automatizado) |
-| **Restaurante Web Funcional** | Versão individual mais organizada, funcional e preparada para produção | [Repositório](https://github.com/Ke0nXD/Restaurante-Web-funcional) |
-| **Restaurante Web Filiais** | Evolução multi-filial para redes, matrizes e SaaS | [Repositório](https://github.com/Ke0nXD/Restaurante-Web-Filiais) · [Demo](https://restaurante-web-filiais.vercel.app/) |
-
----
-
-### 🌙 Lunaris
-Landing page institucional da marca Lunaris, criada para apresentar soluções web com identidade cósmica, visual premium e foco em conversão via WhatsApp.
-
-**Stack:** React, Tailwind CSS, Framer Motion  
-**Links:** [Site](https://lunaris-taupe.vercel.app/) · [Repositório](https://github.com/Ke0nXD/Lunaris)
-
----
-
-### 🏛️ Pleiades Archive
-Experiência web conceitual em Next.js, inspirada em arquivos digitais, conhecimento, segurança, câmaras de navegação e interfaces cinematográficas.
-
-**Stack:** Next.js, Tailwind CSS, Framer Motion  
-**Link:** [Repositório](https://github.com/Ke0nXD/Pleiades-Archive)
-
----
-
-### 🐾 Pistachio Portfolio
-Portfolio artístico responsivo com galeria, comissões feitas e painel administrativo protegido, usando Supabase para banco e storage.
-
-**Stack:** Next.js, TypeScript, Supabase  
-**Link:** [Repositório](https://github.com/Ke0nXD/Pistachio-Portifolio)
-
----
-
-## 💼 O que eu desenvolvo
-
-- Landing pages modernas e responsivas
-- Sites institucionais para negócios locais
-- Aplicações web com painel administrativo
-- Sistemas para restaurantes, cardápios, pedidos e gestão
-- Portfólios profissionais e artísticos
-- Dashboards e ferramentas internas
-- Reparos, melhorias e reorganização de sites existentes
-- Prototipagem rápida usando IA, código e deploy real
-
----
-
-## 📊 Destaques técnicos
-
-<div align="center">
+<br />
+<br />
 
 ![Focus](https://img.shields.io/badge/Foco-Full%20Stack%20Web-7C3AED?style=for-the-badge)
 ![Main Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20React%20%7C%20MongoDB-111827?style=for-the-badge)
@@ -108,12 +42,81 @@ Portfolio artístico responsivo com galeria, comissões feitas e painel administ
 
 </div>
 
-```txt
-Principal linha de trabalho:
-Next.js + React + Tailwind CSS + MongoDB + Vercel
+---
 
-Projetos mais fortes:
-Restaurante Web Filiais · Restaurante Web Funcional · Lunaris · Pleiades Archive
+## 🚀 Projetos em destaque
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🍽️ Restaurante Web Filiais</h3>
+      <p>Sistema multi-filial para redes de restaurantes, matrizes e operação SaaS.</p>
+      <p><strong>Stack:</strong> Next.js, MongoDB, Tailwind CSS, Vercel</p>
+      <a href="https://restaurante-web-filiais.vercel.app/">Demo</a> ·
+      <a href="https://github.com/Ke0nXD/Restaurante-Web-Filiais">Repositório</a>
+    </td>
+    <td width="50%">
+      <h3>🍽️ Restaurante Web Funcional</h3>
+      <p>Versão individual do sistema de restaurante, com pedidos, comandas, delivery e admin.</p>
+      <p><strong>Stack:</strong> Next.js, MongoDB, Tailwind CSS</p>
+      <a href="https://github.com/Ke0nXD/Restaurante-Web-funcional">Repositório</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🌙 Lunaris</h3>
+      <p>Landing page institucional com estética cósmica, visual premium e foco em conversão.</p>
+      <p><strong>Stack:</strong> React, Tailwind CSS, Framer Motion</p>
+      <a href="https://lunaris-taupe.vercel.app/">Site</a> ·
+      <a href="https://github.com/Ke0nXD/Lunaris">Repositório</a>
+    </td>
+    <td width="50%">
+      <h3>🏛️ Pleiades Archive</h3>
+      <p>Experiência web conceitual sobre conhecimento, arquivos digitais e interfaces cinematográficas.</p>
+      <p><strong>Stack:</strong> Next.js, Tailwind CSS, Framer Motion</p>
+      <a href="https://github.com/Ke0nXD/Pleiades-Archive">Repositório</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🐾 Pistachio Portfolio</h3>
+      <p>Portfolio artístico responsivo com galeria, comissões feitas e painel administrativo.</p>
+      <p><strong>Stack:</strong> Next.js, TypeScript, Supabase</p>
+      <a href="https://github.com/Ke0nXD/Pistachio-Portifolio">Repositório</a>
+    </td>
+    <td width="50%">
+      <h3>🍽️ Restaurante Automatizado</h3>
+      <p>Base full stack original do ecossistema de restaurantes.</p>
+      <p><strong>Stack:</strong> Next.js, MongoDB, Tailwind CSS</p>
+      <a href="https://github.com/Ke0nXD/Restaurante-Automatizado">Repositório</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🧭 Linha de evolução
+
+```txt
+Restaurante-Automatizado
+└── Base full stack original
+
+Restaurante-Web-funcional
+└── Versão individual mais organizada e preparada para produção
+
+Restaurante-Web-Filiais
+└── Evolução multi-filial para redes, matrizes e SaaS
+```
+
+---
+
+## 💼 O que eu desenvolvo
+
+```txt
+Landing pages modernas       Sites institucionais
+Aplicações com admin         Sistemas para restaurantes
+Portfólios profissionais     Dashboards e ferramentas internas
+Reparos em sites existentes  Prototipagem rápida com IA
 ```
 
 ---
@@ -131,6 +134,8 @@ Restaurante Web Filiais · Restaurante Web Funcional · Lunaris · Pleiades Arch
 ---
 
 <div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:7c3aed,50:30115e,100:050014" />
 
 ### “Construindo interfaces, sistemas e experiências que parecem simples — até você olhar por baixo da superfície.”
 
