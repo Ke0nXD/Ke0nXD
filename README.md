@@ -97,15 +97,24 @@ Portfolio artístico responsivo com galeria, comissões feitas e painel administ
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Destaques técnicos
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ke0nXD&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ke0nXD&layout=compact&theme=tokyonight&hide_border=true)
+![Focus](https://img.shields.io/badge/Foco-Full%20Stack%20Web-7C3AED?style=for-the-badge)
+![Main Stack](https://img.shields.io/badge/Stack-Next.js%20%7C%20React%20%7C%20MongoDB-111827?style=for-the-badge)
+![Deploy](https://img.shields.io/badge/Deploy-Vercel%20%2B%20GitHub-000000?style=for-the-badge&logo=vercel)
+![Projects](https://img.shields.io/badge/Projetos-Restaurantes%20%7C%20Landings%20%7C%20Dashboards-22C55E?style=for-the-badge)
 
 </div>
+
+```txt
+Principal linha de trabalho:
+Next.js + React + Tailwind CSS + MongoDB + Vercel
+
+Projetos mais fortes:
+Restaurante Web Filiais · Restaurante Web Funcional · Lunaris · Pleiades Archive
+```
 
 ---
 
