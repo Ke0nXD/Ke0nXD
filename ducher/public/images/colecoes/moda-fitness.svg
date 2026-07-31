@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-label="moda fitness">
+  <defs>
+    <linearGradient id="bg-g5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFE4DC"/>
+      <stop offset="100%" stop-color="#D8BFB4"/>
+    </linearGradient>
+    <radialGradient id="blob-g5" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A9646F" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#A9646F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-g5" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="27"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="600" fill="url(#bg-g5)"/>
+
+  <g filter="url(#soft-g5)" opacity="0.9">
+    <circle cx="508.8" cy="330" r="222" fill="url(#blob-g5)"/>
+    <circle cx="336" cy="245.99999999999997" r="138" fill="#EFE4DC" opacity="0.5"/>
+  </g>
+
+  <g transform="rotate(25 480 300)" opacity="0.13" stroke="#2A2422" fill="none" stroke-width="1">
+    <ellipse cx="480" cy="300" rx="326.40000000000003" ry="120"/>
+    <ellipse cx="480" cy="300" rx="211.2" ry="192"/>
+  </g>
+
+  <rect x="10" y="10" width="940" height="580" rx="18" fill="none" stroke="#2A2422" stroke-opacity="0.1"/>
+
+  <text x="50%" y="49%" text-anchor="middle" fill="#2A2422" fill-opacity="0.72"
+        font-family="Georgia, 'Times New Roman', serif" font-size="45"
+        font-style="italic">DU&#8217;CHER</text>
+  <text x="50%" y="57%" text-anchor="middle" fill="#2A2422" fill-opacity="0.45"
+        font-family="Helvetica, Arial, sans-serif" font-size="19"
+        letter-spacing="7">MODA FITNESS</text>
+</svg>

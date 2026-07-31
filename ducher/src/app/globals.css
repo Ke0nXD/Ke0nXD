@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Marfim quente + espresso + rosé. Claro por padrão. */
+    --background: 30 33% 98%;
+    --foreground: 20 14% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 14% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14% 10%;
+
+    --primary: 351 30% 57%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 28 26% 92%;
+    --secondary-foreground: 20 14% 14%;
+
+    --muted: 28 24% 94%;
+    --muted-foreground: 20 8% 42%;
+
+    --accent: 28 30% 90%;
+    --accent-foreground: 20 14% 14%;
+
+    --destructive: 0 72% 46%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 28 20% 88%;
+    --input: 28 20% 86%;
+    --ring: 351 30% 57%;
+
+    --radius: 1rem;
+
+    --surface-glass: 0 0% 100% / 0.68;
+  }
+
+  .dark {
+    --background: 20 12% 7%;
+    --foreground: 30 20% 94%;
+
+    --card: 20 10% 11%;
+    --card-foreground: 30 20% 94%;
+
+    --popover: 20 10% 11%;
+    --popover-foreground: 30 20% 94%;
+
+    --primary: 351 45% 70%;
+    --primary-foreground: 20 14% 10%;
+
+    --secondary: 20 8% 17%;
+    --secondary-foreground: 30 20% 94%;
+
+    --muted: 20 8% 15%;
+    --muted-foreground: 25 8% 62%;
+
+    --accent: 20 8% 19%;
+    --accent-foreground: 30 20% 94%;
+
+    --destructive: 0 62% 52%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 20 8% 20%;
+    --input: 20 8% 22%;
+    --ring: 351 45% 70%;
+
+    --surface-glass: 20 10% 11% / 0.62;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Compensa a navbar fixa quando um link âncora é aberto. */
+    scroll-padding-top: 5.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: 'kern', 'liga', 'calt';
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: hsl(var(--primary) / 0.22);
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+
+  /* Respeita quem pediu menos movimento — WCAG 2.3.3. */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .glass {
+    background: hsl(var(--surface-glass));
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+  }
+
+  /* Linha fina decorativa usada nos eyebrows das seções. */
+  .rule::before {
+    content: '';
+    @apply mr-3 inline-block h-px w-8 translate-y-[-0.25em] bg-primary/50 align-middle;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-br from-foreground via-foreground to-primary bg-clip-text text-transparent;
+  }
+
+  /* Sublinhado que cresce no hover — usado na navbar. */
+  .link-underline {
+    @apply relative;
+  }
+  .link-underline::after {
+    content: '';
+    @apply absolute -bottom-1 left-0 h-px w-0 bg-primary transition-[width] duration-300 ease-out;
+  }
+  .link-underline:hover::after,
+  .link-underline[data-active='true']::after {
+    @apply w-full;
+  }
+}
+
+@layer utilities {
+  .mask-fade-b {
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900" role="img" aria-label="homewear">
+  <defs>
+    <linearGradient id="bg-g15" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EADFD7"/>
+      <stop offset="100%" stop-color="#CDB3A6"/>
+    </linearGradient>
+    <radialGradient id="blob-g15" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9E5C68" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#9E5C68" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-g15" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="41"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="900" fill="url(#bg-g15)"/>
+
+  <g filter="url(#soft-g15)" opacity="0.9">
+    <circle cx="531" cy="297" r="369" fill="url(#blob-g15)"/>
+    <circle cx="405" cy="387" r="297" fill="#EADFD7" opacity="0.5"/>
+  </g>
+
+  <g transform="rotate(75 450 450)" opacity="0.13" stroke="#241F1D" fill="none" stroke-width="1">
+    <ellipse cx="450" cy="450" rx="306" ry="180"/>
+    <ellipse cx="450" cy="450" rx="198" ry="288"/>
+  </g>
+
+  <rect x="10" y="10" width="880" height="880" rx="18" fill="none" stroke="#241F1D" stroke-opacity="0.1"/>
+
+  <text x="50%" y="49%" text-anchor="middle" fill="#241F1D" fill-opacity="0.72"
+        font-family="Georgia, 'Times New Roman', serif" font-size="68"
+        font-style="italic">DU&#8217;CHER</text>
+  <text x="50%" y="57%" text-anchor="middle" fill="#241F1D" fill-opacity="0.45"
+        font-family="Helvetica, Arial, sans-serif" font-size="29"
+        letter-spacing="11">HOMEWEAR</text>
+</svg>

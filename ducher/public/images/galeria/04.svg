@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" width="900" height="1100" role="img" aria-label="praia">
+  <defs>
+    <linearGradient id="bg-g12" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6EDE7"/>
+      <stop offset="100%" stop-color="#E3CFC3"/>
+    </linearGradient>
+    <radialGradient id="blob-g12" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#B76E79" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#B76E79" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-g12" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="41"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1100" fill="url(#bg-g12)"/>
+
+  <g filter="url(#soft-g12)" opacity="0.9">
+    <circle cx="468" cy="638" r="342" fill="url(#blob-g12)"/>
+    <circle cx="288" cy="572" r="270" fill="#F6EDE7" opacity="0.5"/>
+  </g>
+
+  <g transform="rotate(6 450 550)" opacity="0.13" stroke="#2A2422" fill="none" stroke-width="1">
+    <ellipse cx="450" cy="550" rx="306" ry="220"/>
+    <ellipse cx="450" cy="550" rx="198" ry="352"/>
+  </g>
+
+  <rect x="10" y="10" width="880" height="1080" rx="18" fill="none" stroke="#2A2422" stroke-opacity="0.1"/>
+
+  <text x="50%" y="49%" text-anchor="middle" fill="#2A2422" fill-opacity="0.72"
+        font-family="Georgia, 'Times New Roman', serif" font-size="68"
+        font-style="italic">DU&#8217;CHER</text>
+  <text x="50%" y="57%" text-anchor="middle" fill="#2A2422" fill-opacity="0.45"
+        font-family="Helvetica, Arial, sans-serif" font-size="29"
+        letter-spacing="11">PRAIA</text>
+</svg>
