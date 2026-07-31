@@ -11,7 +11,7 @@
  * Uso: node scripts/generate-placeholders.mjs
  */
 
-import { mkdir, writeFile } from 'node:fs/promises';
+import { access, mkdir, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -105,16 +105,42 @@ const FAVICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" wid
 </svg>
 `;
 
+async function exists(path) {
+  try {
+    await access(path);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 async function main() {
+  // Roda como `prebuild`, então por padrão não sobrescreve nada: se você já
+  // trocou um placeholder por foto real, ele fica. Use --force para regerar.
+  const force = process.argv.includes('--force');
+  let written = 0;
+  let kept = 0;
+
   for (const file of FILES) {
     const target = join(OUT, file.path);
+    if (!force && (await exists(target))) {
+      kept++;
+      continue;
+    }
     await mkdir(dirname(target), { recursive: true });
     await writeFile(target, svg(file), 'utf8');
+    written++;
   }
 
-  await writeFile(join(ROOT, 'public', 'favicon.svg'), FAVICON, 'utf8');
+  const favicon = join(ROOT, 'public', 'favicon.svg');
+  if (force || !(await exists(favicon))) {
+    await writeFile(favicon, FAVICON, 'utf8');
+    written++;
+  } else {
+    kept++;
+  }
 
-  console.log(`✓ ${FILES.length} placeholders + favicon gerados em public/`);
+  console.log(`✓ placeholders: ${written} gerado(s), ${kept} preservado(s)`);
 }
 
 main().catch((error) => {
