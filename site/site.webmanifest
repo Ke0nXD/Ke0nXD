@@ -1,0 +1,13 @@
+{
+  "name": "DU'CHER — Lingerie, Moda Praia e Fitness",
+  "short_name": "DU'CHER",
+  "description": "Curadoria de lingerie, moda praia e moda fitness com consultoria de caimento em Lagoa da Prata/MG.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#14100E",
+  "theme_color": "#14100E",
+  "icons": [
+    { "src": "/assets/icons/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

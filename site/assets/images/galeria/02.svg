@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900"
+  role="img" aria-label="Peça 02 da curadoria" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#EFE4DC"/><stop offset="100%" stop-color="#D8BFB4"/>
+    </linearGradient>
+    <linearGradient id="rb0" x1="0" y1="0" x2="1" y2="1.03">
+      <stop offset="0%" stop-color="#A9646F"/><stop offset="100%" stop-color="#C8A96B" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="rb1" x1="0" y1="0" x2="1" y2="0.73">
+      <stop offset="0%" stop-color="#D8BFB4"/><stop offset="100%" stop-color="#7E4550" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="rb2" x1="0" y1="0" x2="1" y2="0.35">
+      <stop offset="0%" stop-color="#C8A96B"/><stop offset="100%" stop-color="#A9646F" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="rb3" x1="0" y1="0" x2="1" y2="1.23">
+      <stop offset="0%" stop-color="#7E4550"/><stop offset="100%" stop-color="#D8BFB4" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="42%" cy="50%" r="58%">
+      <stop offset="0%" stop-color="#F7F2ED" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#F7F2ED" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Desfoque suficiente para o tecido “cair”, não tanto que vire mancha. -->
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7.2"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="2"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <g filter="url(#soften)">
+    <path d="M -90 122.10305345803499 C 382.8175765397027 -3.541619431693121, 667.0819837711751 247.7477263477631, 990.0000000000001 71.84518430214374 L 990.0000000000001 270.28671486508097 C 667.0819837711751 446.18925691070035, 382.8175765397027 194.89991113124415, -90 320.54458402097225 Z" fill="url(#rb0)" opacity="0.71"/>
+      <path d="M -90 122.10305345803499 C 382.8175765397027 -3.541619431693121, 667.0819837711751 247.7477263477631, 990.0000000000001 71.84518430214374 L 990.0000000000001 270.28671486508097 C 667.0819837711751 446.18925691070035, 382.8175765397027 194.89991113124415, -90 320.54458402097225 Z" fill="none" stroke="#A9646F" stroke-opacity="0.28" stroke-width="1.5"/>
+    <path d="M -90 389.21611962653697 C 359.963549005799 267.6966333654709, 586.90111268498 510.735605887603, 990.0000000000001 340.60832512211056 L 990.0000000000001 561.5949143154546 C 586.90111268498 731.7221950809471, 359.963549005799 488.68322255881503, -90 610.2027088198811 Z" fill="url(#rb1)" opacity="0.80"/>
+      <path d="M -90 389.21611962653697 C 359.963549005799 267.6966333654709, 586.90111268498 510.735605887603, 990.0000000000001 340.60832512211056 L 990.0000000000001 561.5949143154546 C 586.90111268498 731.7221950809471, 359.963549005799 488.68322255881503, -90 610.2027088198811 Z" fill="none" stroke="#D8BFB4" stroke-opacity="0.28" stroke-width="1.5"/>
+    <path d="M -90 559.8008841834962 C 298.024034419097 455.51986318593845, 576.3836825564504 664.081905181054, 990.0000000000001 518.0884757844731 L 990.0000000000001 736.340503735654 C 576.3836825564504 882.333933132235, 298.024034419097 673.7718911371194, -90 778.0529121346772 Z" fill="url(#rb2)" opacity="0.66"/>
+      <path d="M -90 559.8008841834962 C 298.024034419097 455.51986318593845, 576.3836825564504 664.081905181054, 990.0000000000001 518.0884757844731 L 990.0000000000001 736.340503735654 C 576.3836825564504 882.333933132235, 298.024034419097 673.7718911371194, -90 778.0529121346772 Z" fill="none" stroke="#C8A96B" stroke-opacity="0.28" stroke-width="1.5"/>
+    <path d="M -90 732.2832353096456 C 252.5013562878594 630.9092517108658, 640.5672842469066 833.6572189084255, 990.0000000000001 691.7336418701336 L 990.0000000000001 843.2128689212725 C 640.5672842469066 985.1364459595644, 252.5013562878594 782.3884787620046, -90 883.7624623607845 Z" fill="url(#rb3)" opacity="0.82"/>
+      <path d="M -90 732.2832353096456 C 252.5013562878594 630.9092517108658, 640.5672842469066 833.6572189084255, 990.0000000000001 691.7336418701336 L 990.0000000000001 843.2128689212725 C 640.5672842469066 985.1364459595644, 252.5013562878594 782.3884787620046, -90 883.7624623607845 Z" fill="none" stroke="#7E4550" stroke-opacity="0.28" stroke-width="1.5"/>
+  </g>
+  <rect width="900" height="900" fill="url(#glow)"/>
+  <rect width="900" height="900" filter="url(#grain)" opacity="0.06" style="mix-blend-mode:overlay"/>
+</svg>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ducher.com.br/sitemap.xml

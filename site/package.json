@@ -1,0 +1,20 @@
+{
+  "name": "ducher-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional da DU'CHER — HTML5, TailwindCSS, GSAP, Lenis e anime.js.",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build:css -- --watch",
+    "build": "npm run build:css && npm run build:icons && npm run build:images",
+    "build:css": "tailwindcss -i ./css/src/tailwind.css -o ./css/tailwind.css --minify",
+    "build:icons": "node tools/make-sprite.mjs assets/icons/lucide.svg && node tools/inline-sprite.mjs assets/icons/lucide.svg index.html",
+    "build:images": "node tools/make-images.mjs assets/images",
+    "serve": "npx --yes serve . -l 4173"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "lucide": "^1.28.0",
+    "tailwindcss": "^4.3.3"
+  }
+}
