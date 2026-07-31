@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" width="1000" height="1250" role="img" aria-label="nossa loja">
+  <defs>
+    <linearGradient id="bg-g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8F2EC"/>
+      <stop offset="100%" stop-color="#E8D9CC"/>
+    </linearGradient>
+    <radialGradient id="blob-g2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C58C8F" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#C58C8F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-g2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="1250" fill="url(#bg-g2)"/>
+
+  <g filter="url(#soft-g2)" opacity="0.9">
+    <circle cx="460" cy="425.00000000000006" r="340" fill="url(#blob-g2)"/>
+    <circle cx="720" cy="625" r="200" fill="#F8F2EC" opacity="0.5"/>
+  </g>
+
+  <g transform="rotate(46 500 625)" opacity="0.13" stroke="#2A2422" fill="none" stroke-width="1">
+    <ellipse cx="500" cy="625" rx="340" ry="250"/>
+    <ellipse cx="500" cy="625" rx="220" ry="400"/>
+  </g>
+
+  <rect x="10" y="10" width="980" height="1230" rx="18" fill="none" stroke="#2A2422" stroke-opacity="0.1"/>
+
+  <text x="50%" y="49%" text-anchor="middle" fill="#2A2422" fill-opacity="0.72"
+        font-family="Georgia, 'Times New Roman', serif" font-size="75"
+        font-style="italic">DU&#8217;CHER</text>
+  <text x="50%" y="57%" text-anchor="middle" fill="#2A2422" fill-opacity="0.45"
+        font-family="Helvetica, Arial, sans-serif" font-size="32"
+        letter-spacing="12">NOSSA LOJA</text>
+</svg>

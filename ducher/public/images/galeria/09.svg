@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" width="900" height="1000" role="img" aria-label="coleção">
+  <defs>
+    <linearGradient id="bg-g17" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFE4DC"/>
+      <stop offset="100%" stop-color="#D8BFB4"/>
+    </linearGradient>
+    <radialGradient id="blob-g17" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A9646F" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#A9646F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-g17" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="41"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1000" fill="url(#bg-g17)"/>
+
+  <g filter="url(#soft-g17)" opacity="0.9">
+    <circle cx="261" cy="470" r="279" fill="url(#blob-g17)"/>
+    <circle cx="333" cy="530" r="171" fill="#EFE4DC" opacity="0.5"/>
+  </g>
+
+  <g transform="rotate(31 450 500)" opacity="0.13" stroke="#2A2422" fill="none" stroke-width="1">
+    <ellipse cx="450" cy="500" rx="306" ry="200"/>
+    <ellipse cx="450" cy="500" rx="198" ry="320"/>
+  </g>
+
+  <rect x="10" y="10" width="880" height="980" rx="18" fill="none" stroke="#2A2422" stroke-opacity="0.1"/>
+
+  <text x="50%" y="49%" text-anchor="middle" fill="#2A2422" fill-opacity="0.72"
+        font-family="Georgia, 'Times New Roman', serif" font-size="68"
+        font-style="italic">DU&#8217;CHER</text>
+  <text x="50%" y="57%" text-anchor="middle" fill="#2A2422" fill-opacity="0.45"
+        font-family="Helvetica, Arial, sans-serif" font-size="29"
+        letter-spacing="11">COLEÇÃO</text>
+</svg>

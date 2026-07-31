@@ -1,0 +1,18 @@
+{
+  "name": "DU'CHER — Lingerie, Moda Praia e Fitness",
+  "short_name": "DU'CHER",
+  "description": "Loja de lingerie, moda praia e moda fitness em Lagoa da Prata/MG.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf8f6",
+  "theme_color": "#b76e79",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
